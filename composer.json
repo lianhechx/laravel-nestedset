@@ -1,0 +1,35 @@
+{
+  "name": "lianhechx/laravel-nestedset",
+  "description": "Nested Set Model for Laravel",
+  "keywords": [
+    "laravel",
+    "nested sets",
+    "database"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chen",
+      "email": "lianhechx@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "5.3.x",
+    "illuminate/database": "5.3.x",
+    "illuminate/events": "5.3.x"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Opbol\\Nestedset\\": "src/"
+    }
+  }
+}
